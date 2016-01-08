@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24FD720F1C4013B5009113AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD720E1C4013B5009113AF /* AppDelegate.swift */; };
+		24FD72111C4013B5009113AF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24FD72101C4013B5009113AF /* GameScene.sks */; };
+		24FD72131C4013B5009113AF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD72121C4013B5009113AF /* GameScene.swift */; };
+		24FD72151C4013B5009113AF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD72141C4013B5009113AF /* GameViewController.swift */; };
+		24FD72181C4013B5009113AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FD72161C4013B5009113AF /* Main.storyboard */; };
+		24FD721A1C4013B5009113AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24FD72191C4013B5009113AF /* Assets.xcassets */; };
+		24FD721D1C4013B5009113AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FD721B1C4013B5009113AF /* LaunchScreen.storyboard */; };
+		24FD72281C4013B5009113AF /* Crazy_TrafficTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD72271C4013B5009113AF /* Crazy_TrafficTests.swift */; };
+		24FD72331C4013B5009113AF /* Crazy_TrafficUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD72321C4013B5009113AF /* Crazy_TrafficUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24FD72241C4013B5009113AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24FD72031C4013B5009113AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24FD720A1C4013B5009113AF;
+			remoteInfo = "Crazy Traffic";
+		};
+		24FD722F1C4013B5009113AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24FD72031C4013B5009113AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24FD720A1C4013B5009113AF;
+			remoteInfo = "Crazy Traffic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24FD720B1C4013B5009113AF /* Crazy Traffic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crazy Traffic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24FD720E1C4013B5009113AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24FD72101C4013B5009113AF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		24FD72121C4013B5009113AF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		24FD72141C4013B5009113AF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		24FD72171C4013B5009113AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24FD72191C4013B5009113AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24FD721C1C4013B5009113AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24FD721E1C4013B5009113AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24FD72231C4013B5009113AF /* Crazy TrafficTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crazy TrafficTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24FD72271C4013B5009113AF /* Crazy_TrafficTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crazy_TrafficTests.swift; sourceTree = "<group>"; };
+		24FD72291C4013B5009113AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24FD722E1C4013B5009113AF /* Crazy TrafficUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crazy TrafficUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24FD72321C4013B5009113AF /* Crazy_TrafficUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crazy_TrafficUITests.swift; sourceTree = "<group>"; };
+		24FD72341C4013B5009113AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24FD72081C4013B5009113AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24FD72201C4013B5009113AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24FD722B1C4013B5009113AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24FD72021C4013B5009113AF = {
+			isa = PBXGroup;
+			children = (
+				24FD720D1C4013B5009113AF /* Crazy Traffic */,
+				24FD72261C4013B5009113AF /* Crazy TrafficTests */,
+				24FD72311C4013B5009113AF /* Crazy TrafficUITests */,
+				24FD720C1C4013B5009113AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24FD720C1C4013B5009113AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24FD720B1C4013B5009113AF /* Crazy Traffic.app */,
+				24FD72231C4013B5009113AF /* Crazy TrafficTests.xctest */,
+				24FD722E1C4013B5009113AF /* Crazy TrafficUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24FD720D1C4013B5009113AF /* Crazy Traffic */ = {
+			isa = PBXGroup;
+			children = (
+				24FD720E1C4013B5009113AF /* AppDelegate.swift */,
+				24FD72101C4013B5009113AF /* GameScene.sks */,
+				24FD72121C4013B5009113AF /* GameScene.swift */,
+				24FD72141C4013B5009113AF /* GameViewController.swift */,
+				24FD72161C4013B5009113AF /* Main.storyboard */,
+				24FD72191C4013B5009113AF /* Assets.xcassets */,
+				24FD721B1C4013B5009113AF /* LaunchScreen.storyboard */,
+				24FD721E1C4013B5009113AF /* Info.plist */,
+			);
+			path = "Crazy Traffic";
+			sourceTree = "<group>";
+		};
+		24FD72261C4013B5009113AF /* Crazy TrafficTests */ = {
+			isa = PBXGroup;
+			children = (
+				24FD72271C4013B5009113AF /* Crazy_TrafficTests.swift */,
+				24FD72291C4013B5009113AF /* Info.plist */,
+			);
+			path = "Crazy TrafficTests";
+			sourceTree = "<group>";
+		};
+		24FD72311C4013B5009113AF /* Crazy TrafficUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24FD72321C4013B5009113AF /* Crazy_TrafficUITests.swift */,
+				24FD72341C4013B5009113AF /* Info.plist */,
+			);
+			path = "Crazy TrafficUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24FD720A1C4013B5009113AF /* Crazy Traffic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24FD72371C4013B5009113AF /* Build configuration list for PBXNativeTarget "Crazy Traffic" */;
+			buildPhases = (
+				24FD72071C4013B5009113AF /* Sources */,
+				24FD72081C4013B5009113AF /* Frameworks */,
+				24FD72091C4013B5009113AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crazy Traffic";
+			productName = "Crazy Traffic";
+			productReference = 24FD720B1C4013B5009113AF /* Crazy Traffic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24FD72221C4013B5009113AF /* Crazy TrafficTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24FD723A1C4013B5009113AF /* Build configuration list for PBXNativeTarget "Crazy TrafficTests" */;
+			buildPhases = (
+				24FD721F1C4013B5009113AF /* Sources */,
+				24FD72201C4013B5009113AF /* Frameworks */,
+				24FD72211C4013B5009113AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24FD72251C4013B5009113AF /* PBXTargetDependency */,
+			);
+			name = "Crazy TrafficTests";
+			productName = "Crazy TrafficTests";
+			productReference = 24FD72231C4013B5009113AF /* Crazy TrafficTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24FD722D1C4013B5009113AF /* Crazy TrafficUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24FD723D1C4013B5009113AF /* Build configuration list for PBXNativeTarget "Crazy TrafficUITests" */;
+			buildPhases = (
+				24FD722A1C4013B5009113AF /* Sources */,
+				24FD722B1C4013B5009113AF /* Frameworks */,
+				24FD722C1C4013B5009113AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24FD72301C4013B5009113AF /* PBXTargetDependency */,
+			);
+			name = "Crazy TrafficUITests";
+			productName = "Crazy TrafficUITests";
+			productReference = 24FD722E1C4013B5009113AF /* Crazy TrafficUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24FD72031C4013B5009113AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ana Vitoria do Valle Costa";
+				TargetAttributes = {
+					24FD720A1C4013B5009113AF = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					24FD72221C4013B5009113AF = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 24FD720A1C4013B5009113AF;
+					};
+					24FD722D1C4013B5009113AF = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 24FD720A1C4013B5009113AF;
+					};
+				};
+			};
+			buildConfigurationList = 24FD72061C4013B5009113AF /* Build configuration list for PBXProject "Crazy Traffic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24FD72021C4013B5009113AF;
+			productRefGroup = 24FD720C1C4013B5009113AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24FD720A1C4013B5009113AF /* Crazy Traffic */,
+				24FD72221C4013B5009113AF /* Crazy TrafficTests */,
+				24FD722D1C4013B5009113AF /* Crazy TrafficUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24FD72091C4013B5009113AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FD72111C4013B5009113AF /* GameScene.sks in Resources */,
+				24FD721D1C4013B5009113AF /* LaunchScreen.storyboard in Resources */,
+				24FD721A1C4013B5009113AF /* Assets.xcassets in Resources */,
+				24FD72181C4013B5009113AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24FD72211C4013B5009113AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24FD722C1C4013B5009113AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24FD72071C4013B5009113AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FD72131C4013B5009113AF /* GameScene.swift in Sources */,
+				24FD72151C4013B5009113AF /* GameViewController.swift in Sources */,
+				24FD720F1C4013B5009113AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24FD721F1C4013B5009113AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FD72281C4013B5009113AF /* Crazy_TrafficTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24FD722A1C4013B5009113AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FD72331C4013B5009113AF /* Crazy_TrafficUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24FD72251C4013B5009113AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24FD720A1C4013B5009113AF /* Crazy Traffic */;
+			targetProxy = 24FD72241C4013B5009113AF /* PBXContainerItemProxy */;
+		};
+		24FD72301C4013B5009113AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24FD720A1C4013B5009113AF /* Crazy Traffic */;
+			targetProxy = 24FD722F1C4013B5009113AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24FD72161C4013B5009113AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24FD72171C4013B5009113AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24FD721B1C4013B5009113AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24FD721C1C4013B5009113AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24FD72351C4013B5009113AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24FD72361C4013B5009113AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24FD72381C4013B5009113AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crazy Traffic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "toiavalle.Crazy-Traffic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		24FD72391C4013B5009113AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crazy Traffic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "toiavalle.Crazy-Traffic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		24FD723B1C4013B5009113AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Crazy TrafficTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "toiavalle.Crazy-TrafficTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crazy Traffic.app/Crazy Traffic";
+			};
+			name = Debug;
+		};
+		24FD723C1C4013B5009113AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Crazy TrafficTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "toiavalle.Crazy-TrafficTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crazy Traffic.app/Crazy Traffic";
+			};
+			name = Release;
+		};
+		24FD723E1C4013B5009113AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Crazy TrafficUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "toiavalle.Crazy-TrafficUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Crazy Traffic";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		24FD723F1C4013B5009113AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Crazy TrafficUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "toiavalle.Crazy-TrafficUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Crazy Traffic";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24FD72061C4013B5009113AF /* Build configuration list for PBXProject "Crazy Traffic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24FD72351C4013B5009113AF /* Debug */,
+				24FD72361C4013B5009113AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24FD72371C4013B5009113AF /* Build configuration list for PBXNativeTarget "Crazy Traffic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24FD72381C4013B5009113AF /* Debug */,
+				24FD72391C4013B5009113AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24FD723A1C4013B5009113AF /* Build configuration list for PBXNativeTarget "Crazy TrafficTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24FD723B1C4013B5009113AF /* Debug */,
+				24FD723C1C4013B5009113AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24FD723D1C4013B5009113AF /* Build configuration list for PBXNativeTarget "Crazy TrafficUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24FD723E1C4013B5009113AF /* Debug */,
+				24FD723F1C4013B5009113AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24FD72031C4013B5009113AF /* Project object */;
+}
