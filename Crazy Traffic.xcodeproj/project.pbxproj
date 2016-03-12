@@ -7,8 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24966FAB1C6320550035ECE7 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24966FAA1C6320550035ECE7 /* GameOver.swift */; };
+		24966FAD1C66C7380035ECE7 /* MapScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24966FAC1C66C7380035ECE7 /* MapScene.swift */; };
+		24966FAF1C66F0460035ECE7 /* Level2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24966FAE1C66F0460035ECE7 /* Level2.swift */; };
+		24E5B6061C509EEB004CE638 /* Level1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E5B6051C509EEB004CE638 /* Level1.swift */; };
+		24F298FC1C72992500FE1250 /* Level9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F298FB1C72992500FE1250 /* Level9.swift */; };
+		24F298FE1C74491100FE1250 /* Level10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F298FD1C74491100FE1250 /* Level10.swift */; };
+		24F299001C75570000FE1250 /* Level11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F298FF1C75570000FE1250 /* Level11.swift */; };
+		24F299021C769C9500FE1250 /* Level12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F299011C769C9500FE1250 /* Level12.swift */; };
+		24F299041C7A5B3500FE1250 /* Level13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F299031C7A5B3500FE1250 /* Level13.swift */; };
+		24F299481C7A7C7D00FE1250 /* InvisibleCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F299471C7A7C7D00FE1250 /* InvisibleCar.swift */; };
+		24F986CF1C6AE7050073748F /* Level3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F986CE1C6AE7050073748F /* Level3.swift */; };
+		24F986D11C6AEDA60073748F /* Level4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F986D01C6AEDA60073748F /* Level4.swift */; };
+		24F986D31C6DA3D50073748F /* Level5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F986D21C6DA3D50073748F /* Level5.swift */; };
+		24F986D51C6DA6310073748F /* Level6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F986D41C6DA6310073748F /* Level6.swift */; };
+		24F986D71C6FBA860073748F /* Level7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F986D61C6FBA860073748F /* Level7.swift */; };
+		24F986D91C7172660073748F /* Level8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F986D81C7172660073748F /* Level8.swift */; };
 		24FD720F1C4013B5009113AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD720E1C4013B5009113AF /* AppDelegate.swift */; };
-		24FD72111C4013B5009113AF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24FD72101C4013B5009113AF /* GameScene.sks */; };
 		24FD72131C4013B5009113AF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD72121C4013B5009113AF /* GameScene.swift */; };
 		24FD72151C4013B5009113AF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD72141C4013B5009113AF /* GameViewController.swift */; };
 		24FD72181C4013B5009113AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FD72161C4013B5009113AF /* Main.storyboard */; };
@@ -16,6 +31,9 @@
 		24FD721D1C4013B5009113AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FD721B1C4013B5009113AF /* LaunchScreen.storyboard */; };
 		24FD72281C4013B5009113AF /* Crazy_TrafficTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD72271C4013B5009113AF /* Crazy_TrafficTests.swift */; };
 		24FD72331C4013B5009113AF /* Crazy_TrafficUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD72321C4013B5009113AF /* Crazy_TrafficUITests.swift */; };
+		24FD72411C40140C009113AF /* Levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD72401C40140C009113AF /* Levels.swift */; };
+		24FD72431C40158B009113AF /* Cars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD72421C40158B009113AF /* Cars.swift */; };
+		24FD72451C44ABE8009113AF /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD72441C44ABE8009113AF /* Path.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +54,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24966FAA1C6320550035ECE7 /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		24966FAC1C66C7380035ECE7 /* MapScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapScene.swift; sourceTree = "<group>"; };
+		24966FAE1C66F0460035ECE7 /* Level2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level2.swift; sourceTree = "<group>"; };
+		24E5B6051C509EEB004CE638 /* Level1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level1.swift; sourceTree = "<group>"; };
+		24F298FB1C72992500FE1250 /* Level9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level9.swift; sourceTree = "<group>"; };
+		24F298FD1C74491100FE1250 /* Level10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level10.swift; sourceTree = "<group>"; };
+		24F298FF1C75570000FE1250 /* Level11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level11.swift; sourceTree = "<group>"; };
+		24F299011C769C9500FE1250 /* Level12.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level12.swift; sourceTree = "<group>"; };
+		24F299031C7A5B3500FE1250 /* Level13.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level13.swift; sourceTree = "<group>"; };
+		24F299471C7A7C7D00FE1250 /* InvisibleCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvisibleCar.swift; sourceTree = "<group>"; };
+		24F986CE1C6AE7050073748F /* Level3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level3.swift; sourceTree = "<group>"; };
+		24F986D01C6AEDA60073748F /* Level4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level4.swift; sourceTree = "<group>"; };
+		24F986D21C6DA3D50073748F /* Level5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level5.swift; sourceTree = "<group>"; };
+		24F986D41C6DA6310073748F /* Level6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level6.swift; sourceTree = "<group>"; };
+		24F986D61C6FBA860073748F /* Level7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level7.swift; sourceTree = "<group>"; };
+		24F986D81C7172660073748F /* Level8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level8.swift; sourceTree = "<group>"; };
 		24FD720B1C4013B5009113AF /* Crazy Traffic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crazy Traffic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FD720E1C4013B5009113AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24FD72101C4013B5009113AF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		24FD72121C4013B5009113AF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		24FD72141C4013B5009113AF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		24FD72171C4013B5009113AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +84,9 @@
 		24FD722E1C4013B5009113AF /* Crazy TrafficUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crazy TrafficUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24FD72321C4013B5009113AF /* Crazy_TrafficUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crazy_TrafficUITests.swift; sourceTree = "<group>"; };
 		24FD72341C4013B5009113AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24FD72401C40140C009113AF /* Levels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Levels.swift; sourceTree = "<group>"; };
+		24FD72421C40158B009113AF /* Cars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cars.swift; sourceTree = "<group>"; };
+		24FD72441C44ABE8009113AF /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +138,27 @@
 			isa = PBXGroup;
 			children = (
 				24FD720E1C4013B5009113AF /* AppDelegate.swift */,
-				24FD72101C4013B5009113AF /* GameScene.sks */,
 				24FD72121C4013B5009113AF /* GameScene.swift */,
 				24FD72141C4013B5009113AF /* GameViewController.swift */,
+				24FD72401C40140C009113AF /* Levels.swift */,
+				24F299471C7A7C7D00FE1250 /* InvisibleCar.swift */,
+				24FD72421C40158B009113AF /* Cars.swift */,
+				24FD72441C44ABE8009113AF /* Path.swift */,
+				24966FAC1C66C7380035ECE7 /* MapScene.swift */,
+				24E5B6051C509EEB004CE638 /* Level1.swift */,
+				24966FAE1C66F0460035ECE7 /* Level2.swift */,
+				24F986CE1C6AE7050073748F /* Level3.swift */,
+				24F986D01C6AEDA60073748F /* Level4.swift */,
+				24F986D21C6DA3D50073748F /* Level5.swift */,
+				24F986D41C6DA6310073748F /* Level6.swift */,
+				24F986D61C6FBA860073748F /* Level7.swift */,
+				24F986D81C7172660073748F /* Level8.swift */,
+				24F298FB1C72992500FE1250 /* Level9.swift */,
+				24F298FD1C74491100FE1250 /* Level10.swift */,
+				24F298FF1C75570000FE1250 /* Level11.swift */,
+				24F299011C769C9500FE1250 /* Level12.swift */,
+				24F299031C7A5B3500FE1250 /* Level13.swift */,
+				24966FAA1C6320550035ECE7 /* GameOver.swift */,
 				24FD72161C4013B5009113AF /* Main.storyboard */,
 				24FD72191C4013B5009113AF /* Assets.xcassets */,
 				24FD721B1C4013B5009113AF /* LaunchScreen.storyboard */,
@@ -199,6 +253,7 @@
 				TargetAttributes = {
 					24FD720A1C4013B5009113AF = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3GRZ3QSMZ5;
 					};
 					24FD72221C4013B5009113AF = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -235,7 +290,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24FD72111C4013B5009113AF /* GameScene.sks in Resources */,
 				24FD721D1C4013B5009113AF /* LaunchScreen.storyboard in Resources */,
 				24FD721A1C4013B5009113AF /* Assets.xcassets in Resources */,
 				24FD72181C4013B5009113AF /* Main.storyboard in Resources */,
@@ -263,9 +317,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F986D71C6FBA860073748F /* Level7.swift in Sources */,
+				24F299001C75570000FE1250 /* Level11.swift in Sources */,
+				24F299481C7A7C7D00FE1250 /* InvisibleCar.swift in Sources */,
+				24E5B6061C509EEB004CE638 /* Level1.swift in Sources */,
+				24F299021C769C9500FE1250 /* Level12.swift in Sources */,
 				24FD72131C4013B5009113AF /* GameScene.swift in Sources */,
 				24FD72151C4013B5009113AF /* GameViewController.swift in Sources */,
+				24F986D11C6AEDA60073748F /* Level4.swift in Sources */,
+				24F299041C7A5B3500FE1250 /* Level13.swift in Sources */,
+				24FD72431C40158B009113AF /* Cars.swift in Sources */,
+				24F986D31C6DA3D50073748F /* Level5.swift in Sources */,
+				24F298FE1C74491100FE1250 /* Level10.swift in Sources */,
+				24F986D91C7172660073748F /* Level8.swift in Sources */,
+				24FD72411C40140C009113AF /* Levels.swift in Sources */,
+				24966FAF1C66F0460035ECE7 /* Level2.swift in Sources */,
+				24FD72451C44ABE8009113AF /* Path.swift in Sources */,
+				24F986CF1C6AE7050073748F /* Level3.swift in Sources */,
+				24966FAD1C66C7380035ECE7 /* MapScene.swift in Sources */,
+				24F298FC1C72992500FE1250 /* Level9.swift in Sources */,
+				24F986D51C6DA6310073748F /* Level6.swift in Sources */,
 				24FD720F1C4013B5009113AF /* AppDelegate.swift in Sources */,
+				24966FAB1C6320550035ECE7 /* GameOver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,10 +478,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Crazy Traffic/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "toiavalle.Crazy-Traffic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -416,10 +493,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Crazy Traffic/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "toiavalle.Crazy-Traffic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -492,6 +573,7 @@
 				24FD72391C4013B5009113AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24FD723A1C4013B5009113AF /* Build configuration list for PBXNativeTarget "Crazy TrafficTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +582,7 @@
 				24FD723C1C4013B5009113AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24FD723D1C4013B5009113AF /* Build configuration list for PBXNativeTarget "Crazy TrafficUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +591,7 @@
 				24FD723F1C4013B5009113AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

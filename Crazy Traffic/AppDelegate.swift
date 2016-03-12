@@ -12,9 +12,20 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        NSUserDefaults.standardUserDefaults().registerDefaults(
+            ["lv1" : 0,
+            "lv2" : 0,
+            "lv3" : 0,
+            "lv4" : 0,
+            "lv5" : 0,
+            "lv6" : 0,
+            "lv7" : 0,
+            "current lv" : 1])
+        
         // Override point for customization after application launch.
         return true
     }
